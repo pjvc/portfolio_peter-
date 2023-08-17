@@ -11,6 +11,7 @@ import Proyecto_7 from "../../assets/Proyecto_tienda/Proyecto_Tacones.png"
 import Proyecto_8 from "../../assets/Proyecto_tienda/Proyecto_comprar.png"
 import Inicio from "../../assets/Proyecto_pong/Inicio.png"
 import Sesion from "../../assets/Sales/Sesion.png"
+import ProyectoPong from "./proyect_pong"
 const Portfolio = () => {
     return(
         <section className="container section proyects">
@@ -54,7 +55,7 @@ const Portfolio = () => {
                         
                         </ul>
                         <div className="div_visit">
-                            <a href="" className="visit">Visit website</a>
+                            <a href="https://pjvc.github.io/SANDALIAS/" className="visit">Visit website</a>
                         </div>
                         <div className="container_select_proyect">
                             <div className="select_proyect">
@@ -81,6 +82,7 @@ const Portfolio = () => {
                     
                 </div>  
             </fieldset>
+            <ProyectoPong/>
         </section>
     )
 }
