@@ -1,4 +1,43 @@
-.titulo{
-    color: blue;
-    background-color: blue;
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 61px;
+    padding-top: 0;
+}
+.section{
+    padding-top: 0rem;
+}
+
+.fieldset_about{
+    width: 42em;
+    padding: 0 2em;
+    padding-bottom: 2em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.container_item{
+    display: flex;
+    font-size: 48px;
+    gap: 54px;
+}
+
+.cv{
+    margin-top: 2em;
+}
+.legend_title{
+    margin-left: -0.5em;
+    font-weight: var(--font-bold);
+    font-size:  var(--h1-font-size);
+    font-family: 'Rubik', sans-serif;
+}
+.fa-brands:hover{
+    color: lightseagreen;
+    transition: all 0.2s;
+    cursor: pointer;
 }

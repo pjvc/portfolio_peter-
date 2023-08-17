@@ -14,6 +14,7 @@ function App() {
       <SideBar/>
         <div className='main'>
           <Home/>
+          <About/>
           <Resume/>
           <Portfolio/>
           <Service/>
