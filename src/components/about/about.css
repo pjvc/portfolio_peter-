@@ -29,6 +29,7 @@
 
 .cv{
     margin-top: 2em;
+    font-family: var(--body-font);
 }
 .legend_title{
     margin-left: -0.5em;

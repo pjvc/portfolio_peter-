@@ -6,7 +6,7 @@ import ScrollDown from "./scrolldown";
 
 const Home = () =>{
     return(
-        <section className="home container">
+        <section className="home container" id="home">
             <div className="intro">
                 <div className="div_img">
                     <img src={peter} alt="" className="img_user" />

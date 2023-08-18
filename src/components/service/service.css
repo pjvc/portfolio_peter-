@@ -1,3 +1,27 @@
-.titulo{
-    color: green;
+.service{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.fieldset_service{
+    width: 55em;
+}
+.footer{
+    height: 10em;
+}
+.contact_service{
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact_service:hover{
+    transition: all 0.2s;
+    color: lightseagreen;
+}
+.p_contact{
+    font-size: 16px;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import './resume.css'
 const Resume = () =>{
     return(
-        <section className="container section resume">
+        <section className="container section resume" id="resume">
             <fieldset className="fieldset_resume">
                 <legend className="legend_title">Details</legend>
                 <fieldset className="fieldset_contenido">

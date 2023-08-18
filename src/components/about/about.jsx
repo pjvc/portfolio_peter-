@@ -1,5 +1,6 @@
 import React from "react";
 import './about.css'
+import Curriculum from '../../assets/curriculum/Curriculum.pdf'
 const About = () =>{
     return(
         <section className="about container section" id="about">
@@ -7,7 +8,7 @@ const About = () =>{
                 <legend className="legend_title">About me</legend>
                 <p>Technology enthusiast, in training to contribute to its advancement, development and continuous improvement. 
                     Learning to write my life with code. Focused on programming ❤️‍🔥. With a science background . Developing Computational Thinking ⚙️.</p>
-                <a href="" className="btn cv">Dowload CV</a>
+                <a href={Curriculum} className="btn cv" download="Curriculum_peter">Donwload CV</a>
             </fieldset>
             <fieldset className="fieldset_about">
                 <legend className="legend_title">Skills</legend>

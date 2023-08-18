@@ -6,9 +6,8 @@
 .slider{
     
     display: flex;
-    width: 400%;
-    overflow: hidden;
-
+    width: 100%;
+    flex-direction: column;
 }
 .img_proyect{
     height: 100%;
@@ -16,13 +15,14 @@
     border-radius: 10px;
 }
 .proyect{
-    height: 15em;
-    width: 32%;
+    height: 12em;
+    width: 29%;
     border: 1px solid #ddd;
     border-radius: 10px;
+    cursor: pointer;
 }
 .fieldset_proyects{
-    width: 80em;
+    width: 74em;
     overflow: hidden;
     padding: 25px 0;
     display: flex;
@@ -44,7 +44,7 @@
 .lista_proyectos{
     
     display: flex;
-    gap: 21px;
+    gap: 61px;
     flex-wrap: wrap;
     justify-content: center;
     width: 90%;
@@ -54,14 +54,19 @@
     width: 100%;
     display: flex;
     padding: 0 0 25px 30px;
-    gap: 155px;
+    gap: 80px;
     font-family: var(--body-font);
 }
 .design{
     border-radius: 15px;
+    border: 1px solid lightseagreen;
+    color: lightseagreen;
+    padding: 5px 28px;
+    cursor: pointer;
+}
+.design_select{
     background-color: lightseagreen;
     color: white;
-    padding: 5px 28px;
 }
 .container_select_proyect{
     display: flex;
@@ -71,26 +76,28 @@
     border-top: 1px solid #ddd;
 }
 .img_select{
-    width: 84%;
-    height: 92%;
+    width: 97%;
+    height: 97%;
     border: 1px solid #ddd;
     border-radius: 15px;
 }
 
 
 .select_proyect{
-    width: 40%;
+    width: 28%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 26px;
+    
 }
 .lista_select_proyect{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 19px 0;
+    padding: 0 0;
     cursor: pointer;
 }
 .lista_img{
@@ -103,6 +110,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 21px;
 }
 
 .visit{
@@ -113,3 +121,39 @@
     border-radius: 15px;
     margin-bottom: 5px;
 }
+.hidden{
+    display: none;
+}
+.select{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 15px;
+}
+.proyect_responsive{
+    height: 21em;
+    width: 21%;
+}
+.title_project{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    text-align: center;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+.overlay_image {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+  }
+
