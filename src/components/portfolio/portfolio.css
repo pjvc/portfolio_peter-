@@ -189,7 +189,8 @@
         display: none;
     }
     .fieldset_proyects{
-        width: 90%;
+        width: 100%;
+        border: none;
     }
     .slider_cel{
         width: 90%;
@@ -197,7 +198,7 @@
         border: 1px solid black;
     }
     .container_cel_proyect{
-        width: 95%;
+        width: 98%;
         display: block;
     }
     .proyect_cel_sales{
@@ -206,11 +207,13 @@
         justify-content: flex-start;
         border: 1px solid #ddd;
         border-radius: 10px;
-        margin-bottom: 12px;
+        margin-bottom: 23px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
     }
     .container_img_cel{
-        width: 12em;
-        height: 7em;
+        width: 15em;
+        height: 9em;
         padding: 5px 5px;
 
     }
