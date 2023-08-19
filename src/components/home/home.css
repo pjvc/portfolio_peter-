@@ -95,3 +95,14 @@
     transform: translate(-50%);
     animation:  ani-mouse 2s linear infinite;
 }
+@media screen and (max-width: 1024px) {
+
+    .home{
+        position: inherit;
+        min-height: 76vh
+    }
+    .scroll_down{
+        bottom: 15rem;
+    }
+}
+
