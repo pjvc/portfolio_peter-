@@ -14,6 +14,12 @@
     width: 100%;
     border-radius: 10px;
 }
+.img_proyect_cel{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
 .proyect{
     height: 12em;
     width: 29%;
@@ -143,6 +149,26 @@
     left: 0;
     width: 100%;
     height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.overlay_image {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+  }
+.overlay_cel{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
@@ -151,9 +177,8 @@
     pointer-events: none;
     transition: opacity 0.3s;
 }
-.overlay_image {
-    width: 80%;
-    height: 80%;
-    object-fit: cover;
+.overlay_image_cel {
+    width: 34%;
+    height: 90%;
   }
 

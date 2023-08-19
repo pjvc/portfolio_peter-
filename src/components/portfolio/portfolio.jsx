@@ -25,6 +25,16 @@ const Portfolio = () => {
             overlay.style.pointerEvents = 'auto';
         })
     })
+    const images_select_cel = document.querySelectorAll('img.img_proyect_cel')
+    var overlay_image_cel = document.getElementById('overlay_image_cel')
+    images_select_cel.forEach(elemento =>{
+        elemento.addEventListener('click', ()=>{
+            overlay_image_cel.src = elemento.src;
+            overlay_cel.style.opacity= 1;
+            overlay_cel.style.pointerEvents= 'auto';
+        }) 
+        
+    })
     return(
         <section className="container section proyects" id="portfolio">
             <fieldset className="fieldset_proyects">
@@ -198,6 +208,13 @@ const Portfolio = () => {
                     overlay.style.pointerEvents = 'none';
                 }}>
                     <img  alt="" className="overlay_image" id="overlay_image" />
+                </div>
+                <div className="overlay_cel" id="overlay_cel" onClick={function hidden_overlay_cel(){
+                    var overlay_cel = document.getElementById('overlay_cel')
+                    overlay_cel.style.opacity = 0;
+                    overlay_cel.style.pointerEvents = 'none';
+                }}>
+                    <img  alt="" className="overlay_image_cel" id="overlay_image_cel" />
                 </div>  
             </fieldset>            
         </section>

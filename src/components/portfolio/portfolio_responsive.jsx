@@ -15,7 +15,7 @@ const ProyectResponsive = () =>{
         <ul className="lista_proyectos hidden" id="proyect_responsive">
             {image.map((imagen, index)=>(
                 <li key={index} className="proyect proyect_responsive">
-                    <img src={imagen} className="img_proyect" alt={`Imagen ${index+1}`} />
+                    <img src={imagen} className=" img_proyect_cel" alt={`Imagen ${index+1}`} />
                 </li>
           ))}
         </ul>
