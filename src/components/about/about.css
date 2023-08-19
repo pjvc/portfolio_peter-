@@ -42,3 +42,16 @@
     transition: all 0.2s;
     cursor: pointer;
 }
+@media screen and (max-width: 1024px) {
+    .fieldset_about {
+        width: 90%;
+    }
+    .container_item {
+        font-size: 37px;
+
+    }
+    .container_item{
+        gap: 52px;
+    }
+
+}

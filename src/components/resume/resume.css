@@ -33,3 +33,13 @@ p{
     font-size: var(--h3-font-size);
     font-family: var(--body-font);
 }
+@media screen and (max-width:1024px){
+    .fieldset_resume {
+        display:flex ;
+        flex-direction: column;
+        
+    }
+    .fieldset_contenido {
+        width: 100%;
+    }
+}

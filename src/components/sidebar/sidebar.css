@@ -38,6 +38,9 @@
     font-family: 'Rubik', sans-serif;
     color: lightseagreen;
 }
+.section_aside_cel{
+    display: none;
+}
 .item_link:hover{
     transition: all 0.2s;
     background-color: #ddd;
@@ -51,6 +54,7 @@
         border: none;
     }
     .section_aside_cel{
+        display: block;
         background-color: white;
         justify-content: center;
         width: 100%;
