@@ -181,4 +181,77 @@
     width: 34%;
     height: 90%;
   }
+.container_cel_proyect{
+    display: none;
+}
+@media screen and (max-width:1024px) {
+    .slider{
+        display: none;
+    }
+    .fieldset_proyects{
+        width: 90%;
+    }
+    .slider_cel{
+        width: 90%;
+        height: 5em;
+        border: 1px solid black;
+    }
+    .container_cel_proyect{
+        width: 95%;
+        display: block;
+    }
+    .proyect_cel_sales{
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        margin-bottom: 12px;
+    }
+    .container_img_cel{
+        width: 12em;
+        height: 7em;
+        padding: 5px 5px;
 
+    }
+    .img_cel{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .title_desc_cel{
+        font-family: var(--body-font);
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .tecnologys{
+        font-size: 10px;
+    }
+    .container-tecnologys{
+        display: flex;
+        gap: 13px;
+    }
+    .container_link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .padding{
+        padding: 3px 0;
+    }
+    .link_visit{
+        padding: 1px 18px;
+        background-color: white;
+        color: lightseagreen;
+        border-radius: 6px;
+        font-family: var(--body-font);
+        font-size: 8px;
+        margin: 2px;
+        border: 1px solid lightseagreen;
+    }
+    .tecnlogy_img{
+        width: 17px;
+        height: 17px;
+    }
+}

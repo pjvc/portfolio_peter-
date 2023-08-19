@@ -14,6 +14,9 @@ import Inicio from "../../assets/Proyecto_pong/Inicio.png"
 import Sesion from "../../assets/Sales/Sesion.png"
 import Sistem from "./proyect_sistem";
 import ProyectResponsive from "./portfolio_responsive";
+import Logotipo_C from "../../assets/logotipo-de-c-.png"
+
+
 const Portfolio = () => {
     var images_select = document.querySelectorAll('img.img_proyect')
     const overlay = document.getElementById('overlay');
@@ -32,9 +35,9 @@ const Portfolio = () => {
             overlay_image_cel.src = elemento.src;
             overlay_cel.style.opacity= 1;
             overlay_cel.style.pointerEvents= 'auto';
-        }) 
-        
+        })     
     })
+
     return(
         <section className="container section proyects" id="portfolio">
             <fieldset className="fieldset_proyects">
@@ -202,6 +205,7 @@ const Portfolio = () => {
                     
                     
                 </div>
+                
                 <div className="overlay" id="overlay" onClick={function hidden_overlay(){
                     var overlay = document.getElementById('overlay')
                     overlay.style.opacity = 0;
@@ -215,7 +219,70 @@ const Portfolio = () => {
                     overlay_cel.style.pointerEvents = 'none';
                 }}>
                     <img  alt="" className="overlay_image_cel" id="overlay_image_cel" />
-                </div>  
+                </div> 
+                <div className="container_cel_proyect">
+                    <div className="proyect_cel_sales">
+                        <div className="container_img_cel ">
+                            <img src={Proyecto_2} alt="" className="img_cel"/>
+                        </div>
+                        <div className="container_desc_cel">
+                            <h2 className="title_desc_cel padding">E comerce</h2>
+                            <p className="tecnologys padding">Used technologies</p>
+                            <div className="container-tecnologys padding">
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <i class="fa-brands fa-js"></i>
+                                <i class="fa-brands fa-react"></i>
+                            </div>
+                            <div className="container_link padding">
+                                <a className="tecnologys link_visit" href="https://github.com/pjvc/SANDALIAS">Repository</a>
+                                <a className="tecnologys link_visit" href="https://pjvc.github.io/SANDALIAS/index.html">Website</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div className="proyect_cel_sales">
+                        <div className="container_img_cel ">
+                            <img src={Inicio} alt="" className="img_cel"/>
+                        </div>
+                        <div className="container_desc_cel">
+                            <h2 className="title_desc_cel padding">Game Pong</h2>
+                            <p className="tecnologys padding">Used technologies</p>
+                            <div className="container-tecnologys padding">
+                                <img src={Logotipo_C} alt="" className="tecnlogy_img" />
+                            </div>
+                            <div className="container_link padding">
+                                <a className="tecnologys link_visit" href="https://github.com/pjvc/ping-pong-GAME">
+                                    Respository
+                                </a>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div className="proyect_cel_sales">
+                        <div className="container_img_cel ">
+                            <img src={Sesion} alt="" className="img_cel"/>
+                        </div>
+                        <div className="container_desc_cel">
+                            <h2 className="title_desc_cel padding">Sales System</h2>
+                            <p className="tecnologys padding">Used technologies</p>
+                            <div className="container-tecnologys padding">
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <i class="fa-brands fa-js"></i>
+                                <i class="fa-brands fa-react"></i>
+                            </div>
+                            <div className="container_link padding">
+                                <a className="tecnologys link_visit" href="https://github.com/pjvc/ping-pong-GAME">
+                                    Respository
+                                </a>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div> 
             </fieldset>            
         </section>
         
