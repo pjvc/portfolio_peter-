@@ -274,7 +274,7 @@ const Portfolio = () => {
                                 <i class="fa-brands fa-react"></i>
                             </div>
                             <div className="container_link padding">
-                                <a className="tecnologys link_visit" href="https://github.com/pjvc/ping-pong-GAME">
+                                <a className="tecnologys link_visit" href="https://github.com/pjvc/Proyecto_ventas">
                                     Respository
                                 </a>
                                 
